@@ -835,7 +835,7 @@ footer a{
 
     .mobilelandingpage h1{
         font-family: "Magilio";
-        font-size: 70px;
+        font-size: 65px;
         font-weight: normal;
         text-align: center;
     }
@@ -845,7 +845,7 @@ footer a{
         margin-left: auto;
         margin-right: auto;
         font-family: "Halyard Display Book";
-        font-size: 29px;
+        font-size: 24px;
         font-weight: normal;
         text-align: center;
     }
@@ -861,12 +861,12 @@ footer a{
 
     #normal{
         font-family: "Halyard Display";
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #book{
         font-family: "Halyard Display Book";
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .beanandscroll{
