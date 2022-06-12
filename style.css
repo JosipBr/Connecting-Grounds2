@@ -41,6 +41,16 @@
     src: url(fonts/Halyard\ Text\ Regular.ttf) format("truetype");
    
 }
+
+body img{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
 /*navigation box*/
 nav{
     
@@ -688,13 +698,13 @@ footer{
 }
 
 .bigfooter{
-    width: 90%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
     
-    align-content: center;
+    
 }
 
 footer a{
@@ -706,19 +716,24 @@ footer a{
     width: 40%;
 }
 
+.aboutus p{
+    width: 85%;
+}
+
 .help{
-    padding-left: 150px;
     width: 30%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
 
+
+
 .socialmedia{
-    width: 30%;
+    width: 25%;
     display: flex;
-    padding-left: 150px;
+    
     flex-direction: column;
 }
 
@@ -808,11 +823,12 @@ footer a{
     overflow-x: hidden;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 130px;
+    background-color: #EFEFEF;
 }
 
     .mobilelandingpage .text{
-        width: 75%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -829,7 +845,7 @@ footer a{
         margin-left: auto;
         margin-right: auto;
         font-family: "Halyard Display Book";
-        font-size: 35px;
+        font-size: 29px;
         font-weight: normal;
         text-align: center;
     }
@@ -837,27 +853,28 @@ footer a{
     .mobilelandingpage .hi{
         text-align: center;
         padding-top: 60px;
-        width: 50%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
     #normal{
         font-family: "Halyard Display";
-        font-size: 28px;
+        font-size: 25px;
     }
 
     #book{
         font-family: "Halyard Display Book";
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .beanandscroll{
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .bean{
@@ -866,7 +883,40 @@ footer a{
         justify-content: flex-end;
     }
 
+    .bean img{
+        height: 147px;
+        width: 168px;
+    }
+
     .scrolldown{
         width: 25%;
+        font-size: 15px;
     }
+    .scrolldown p{
+        font-size: 7px;
+        
+    }
+    .scrolldown img{
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/*footer page*/
+@media only screen and (max-width: 1180px){
+    .bigfooter{
+        flex-direction: column;
+        width: 95%;
+        
+    }
+
+    .aboutus, .help, .socialmedia{
+        width: 100%;
+    }    
+
+    .aboutus, .help{
+        padding-bottom: 20px;
+    }
+
+    
 }
